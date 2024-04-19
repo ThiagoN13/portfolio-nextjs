@@ -1,0 +1,101 @@
+    body {
+      background-color: #2f3238;
+
+    }
+
+    .fundoNav {
+      background-color: #000000CC;
+      margin: -3%;
+      padding: 0;
+      position: fixed;
+      width: 101.7%;
+      height: 130px;
+      align-items: center;
+      display: flex;
+
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+    }
+
+    p {
+      color: #666666;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .linhaTitulo {
+      border-bottom: 4px solid #EB5F22;
+      position: sticky;
+      height: 4px;
+      width: 80px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: 1000ms;
+    }
+
+    .caixaTitulo {
+      width: 100% !important;
+      padding-bottom: 3%;
+
+
+    }
+
+    .caixaTitulo:hover {
+      .linhaTitulo {
+        width: 300px;
+        transition: 500ms linear;
+      }
+    }
+
+    #containerForm {
+      justify-content: center;
+      display: flex;
+      padding-bottom: 10px;
+
+    }
+
+
+    .inputForm {
+      width: 650px;
+      height: 50px;
+      background-color: #26292E;
+      color: #CFCFCF;
+      border: none;
+      display: block;
+      margin-bottom: 15px;
+      outline: 0;
+      padding-left: 10px;
+    }
+
+    #inputMsg {
+
+
+      height: 170px;
+    }
+
+    #inputButton {
+      width: 142px;
+      height: 42px;
+      background-color: #26292E;
+      color: white;
+      border: none;
+      left: 50%;
+      transform: translateX(170%);
+      transition: 1000ms;
+      margin-top: 30px;
+
+
+    }
+
+    #inputButton:hover {
+      background-color: #EB5F22;
+      cursor: pointer;
+      transition: 1000ms;
+    }
+
+    footer {
+      margin-top: 100px;
+    }

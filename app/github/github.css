@@ -1,0 +1,124 @@
+body {
+    background-color: #2f3238;
+}
+
+
+.fundoNav{
+    background-color: #000000CC;
+    margin:-3%;
+    
+    padding: 0;
+    position: fixed;
+    width: 101.7%;
+    height: 130px;
+    
+    align-items:center;
+    
+    display: flex;
+   
+}
+h1 {
+    color: white;
+    text-align: center;
+
+}
+
+.linhaTitulo {
+    border-bottom: 4px solid #EB5F22;
+    position: sticky;
+    height: 4px;
+    width: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1000ms;
+}
+
+.caixaTitulo {
+    width: 100% !important;
+    padding-bottom: 3%;
+
+
+}
+
+.caixaTitulo:hover {
+    .linhaTitulo {
+        width: 300px;
+        transition: 500ms linear;
+    }
+}
+
+#container {
+    width:100%;
+     height: 100%;
+     padding-left:130px;
+}
+
+.portfolioBox {
+    background-color: #EB5F22;
+    border-radius: 10px;
+    width: 252.2px;
+    height: 165px;
+    transition: 500ms;
+    margin:40px;
+    
+    margin-left:-10px;
+    margin-bottom: -25px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+
+}
+
+
+.linkBox {
+    
+    width: 100% !important;
+    height: 100% !important;
+
+
+
+}
+
+.tituloProjeto {
+    text-align: center;
+    text-transform: lowercase;
+
+
+}
+
+
+
+.gitImg {
+
+
+    width: 65px;
+    left: 50%;
+    transform: translateX(140%);
+    transition: 180ms;
+}
+
+.gitGif {
+    width: 65px;
+    visibility: hidden;
+    transform: translate(40%, 0%);
+
+
+}
+
+.portfolioBox:hover {
+    background-color: rgb(233, 222, 222);
+    transition: 200ms;
+
+    .gitGif {
+        visibility: visible;
+
+    }
+
+    .projetoName {
+        color: black
+    }
+
+    .gitImg {
+        visibility: hidden;
+    }
+}

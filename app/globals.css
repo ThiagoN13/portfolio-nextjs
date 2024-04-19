@@ -1,0 +1,65 @@
+
+ body,
+ html {
+
+   text-rendering: optimizelLegibility !important;
+   overflow-x: hidden;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   background: rgba(0, 0, 0, 0.7);
+   background-size: cover;
+   background-blend-mode: darken;
+
+   color: #cfcfcf;
+ }
+
+ #fundoNav{
+  background-color: transparent;
+ }
+
+ h1 {
+   padding: 40vh 0 0;
+   font-size: 40px;
+   text-transform: none;
+    text-align: center;
+
+
+ }
+
+ h1 strong {
+   font-weight: 800;
+
+ }
+
+ h2 {
+   text-transform: none;
+
+ }
+
+ h3 {
+   font-size: 25px;
+   font-weight: 900;
+   color: #ffff;
+   font-family: "Opens Sans", "Helvetica Neue";
+   text-align: center;
+  }
+
+
+
+ h4 {
+   text-transform: none;
+ }
+
+ h5 {
+   text-transform: none;
+   font-weight: 700;
+   line-height: 20px;
+
+ }
+
+
+ img {
+   max-width: 100% !important;
+   object-fit: cover;
+ }
