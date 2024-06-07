@@ -94,22 +94,7 @@ export default function GitHub() {
                
                     <br />
 
-                    <div id='container1' className={'container'}>
-                        <div className={'linguagens'}> Javascript</div>
-                        <div className={'linguagens'}>PHP</div>
-                        <div className={'linguagens'}>UI/UX</div>
-                        <div className={'linguagens'}>C#</div>
-                        <div className={'linguagens'}>VueJS</div>
-                        <div className={'linguagens'}>Angular/AngularJS</div>
-                    </div>
-                    <div id='container2' className={'container'}>
-                        <div className='linguagens'>MySQL</div>
-                        <div className={'linguagens'}>CockroachDB</div>
-                        <div className={'linguagens'}>PL/SQL</div>
-                        <div className={'linguagens'}>PostgreSQl</div>
-                        <div className={'linguagens'}>Redis</div>
-                        <div className={'linguagens'}>MongoDB</div>
-                    </div>
+                   
                 </div>
 
 

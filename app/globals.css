@@ -29,7 +29,7 @@
   80%{
    
     visibility: visible;
-    transform:translate(0%,-500%);
+    transform:translate(0%,-600%);
   
   }
   100%{
@@ -39,7 +39,7 @@
 }
 @keyframes textosMove{
   from{
-    transform: translate(0%,100%);
+    transform: translate(0%,130%);
   }
    to{
     transform: translate(0%,0%);
@@ -59,22 +59,24 @@
 
  #fundoNav{
   background-color: transparent;
+  
  }
 
 #fundo{
   height: 695px;
-  width: 100%;
+width: 100%;
   margin: 0%;
-  background: rgb(0, 0, 0);
+  background: rgb(245, 245, 245);
+  background-repeat: repeat;
   background-size:cover;
-  background-blend-mode:darken;
+  background-blend-mode:lighten;
 
 }
 
 .estrelas{
-  width:900px;
+  width:100%;
   margin-bottom:-200px;
-  height: 300px;
+  height: 800px;
   background: rgba(0, 0, 0, 0.7);
   display:inline-block;
   background-blend-mode:darken;
@@ -90,7 +92,7 @@
   display: flex;
   justify-content: center;
   visibility: hidden;
-  animation: ovniMove 11s linear;
+  animation: ovniMove 9s linear;
 
 
 }

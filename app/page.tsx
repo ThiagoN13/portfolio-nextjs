@@ -21,13 +21,12 @@ export default function Home() {
     
     <body  >
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div id='fundo' style={{ backgroundImage: `url(/img/estrelas.jpg)` }}>
-
+        <div id='fundo'>
           <header>
             <NavBar></NavBar>
           </header>
 
-          <div className={'estrelas'} style={{backgroundImage:"url(/img/transferir.gif)"}}></div>
+          <div className={'estrelas'} style={{backgroundImage:"url(/img/transferir.gif)"}}>
 
           <div className={'textos'}>
            
@@ -39,7 +38,7 @@ export default function Home() {
             <h3>Software Engineer</h3>
 
           </div>
-
+          </div>
 
           <div id='caixaFoguete'>
             <BsFillRocketFill id='foguete' />
