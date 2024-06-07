@@ -1,16 +1,59 @@
 
- body,
- html {
+@keyframes move{
+  0%{
+    top:50%;
+    visibility: visible;
+    transform: translate(90%,-1000%);
+   
+    
+  }
+    70%{
+      transform: rotate(180deg);
+      transform: translate(-90%, -30%);
+    }
+    80%{
+      
+      transform: rotate(110deg);
+    }
+    
+ 
+}
+@keyframes ovniMove{
+  0%{
+   
+
+    visibility: hidden;
+    transform: translate(0%, -60%);
+   
+  }
+  80%{
+   
+    visibility: visible;
+    transform:translate(0%,-500%);
+  
+  }
+  100%{
+    visibility: hidden;
+    transform: translate(0%,50%);
+  }
+}
+@keyframes textosMove{
+  from{
+    transform: translate(0%,100%);
+  }
+   to{
+    transform: translate(0%,0%);
+  }
+ 
+}
+ 
+ body
+ {
 
    text-rendering: optimizelLegibility !important;
    overflow-x: hidden;
-   height: 100%;
-   width: 100%;
-   margin: 0;
-   background: rgba(0, 0, 0, 0.7);
-   background-size: cover;
-   background-blend-mode: darken;
-
+   margin: 0%;
+   margin-top: -35px;
    color: #cfcfcf;
  }
 
@@ -18,11 +61,79 @@
   background-color: transparent;
  }
 
+#fundo{
+  height: 695px;
+  width: 100%;
+  margin: 0%;
+  background: rgb(0, 0, 0);
+  background-size:cover;
+  background-blend-mode:darken;
+
+}
+
+.estrelas{
+  width:900px;
+  margin-bottom:-200px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  display:inline-block;
+  background-blend-mode:darken;
+  background-repeat: repeat;
+  
+}
+.textos{
+  animation: textosMove 15s ;
+  transform: translate(0%,0%);
+  
+}
+#caseOvni{
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  animation: ovniMove 11s linear;
+
+
+}
+#ovni{
+  height: 69px;
+  width: 65px;
+  
+
+}
+
+#caixaFoguete{
+  display:flex;
+  margin-left: -300px;  
+  animation: move 20s infinite;
+
+
+}
+#foguete{
+  visibility: visible;
+transform: rotate(-110deg);
+  height: 40px;
+  width: 40px;
+  
+
+ 
+  
+}
+
+#sobre{
+  margin-top:-27px;
+ 
+  background: rgba(0, 0, 0, 0.7);
+  background-blend-mode:darken;
+    background-color: #041024;
+   
+    
+}
+
  h1 {
    padding: 40vh 0 0;
    font-size: 40px;
    text-transform: none;
-    text-align: center;
+    text-align:center;
 
 
  }

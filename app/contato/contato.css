@@ -1,19 +1,9 @@
-    body {
+    #fundoContato {
       background-color: #2f3238;
-
+      margin-top: -27px;
     }
 
-    .fundoNav {
-      background-color: #000000CC;
-      margin: -3%;
-      padding: 0;
-      position: fixed;
-      width: 101.7%;
-      height: 130px;
-      align-items: center;
-      display: flex;
 
-    }
 
     h1 {
       color: white;
@@ -81,21 +71,67 @@
       height: 42px;
       background-color: #26292E;
       color: white;
-      border: none;
-      left: 50%;
-      transform: translateX(170%);
-      transition: 1000ms;
-      margin-top: 30px;
-
-
-    }
-
-    #inputButton:hover {
-      background-color: #EB5F22;
       cursor: pointer;
-      transition: 1000ms;
+      position: relative;
+      display: inline-block;
+      margin: 20px;
+      transform: translateX(170%);
     }
 
-    footer {
-      margin-top: 100px;
+    #inputButton {
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      text-align: st;
+      text-decoration: none;
+      display: block;
+      position: relative;
+      padding: 20px 40px;
+
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      text-shadow: 0px 1px 0px #000;
+      filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+      -webkit-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
+      -moz-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
+      box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
+
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+    }
+
+    #inputButton:active {
+    
+      top: 10px;
+      background-color: #26292E;
+
+      -webkit-box-shadow: inset 0 1px 0 #FFE5C4,
+      inset 0 -3px 0 #26292E;
+      -moz-box-shadow: inset 0 1px 0 #FFE5C4,
+      inset 0 -3pxpx 0 #26292E;
+      box-shadow: inset 0 1px 0 #FFE5C4,
+      inset 0 -3px 0 #FFE5C4;
+    }
+
+    .inputButton:after {
+      content: "";
+      height: 100%;
+      width: 100%;
+      padding: 4px;
+      position: absolute;
+      bottom: -15px;
+      left: -4px;
+      z-index: -1;
+      background-color: #a8630e;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+    }
+
+    #send {
+      width: 25px;
+      height: 25px;
+      margin-top: -10px;
+     
     }

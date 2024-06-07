@@ -1,0 +1,66 @@
+@media screen and (max-width:992px)  {
+    nav{
+        position: fixed;
+    }
+    .marca{
+        margin-left:-10%;
+    }
+    
+    .links{
+        
+        display: block;
+        left: -20%;
+        width: 100%;
+       padding: 10px;
+       margin-left: 5%;
+       
+    }
+        #menu{
+            
+            display:inline-flex;
+            
+            margin-left: -20%;
+             justify-content:initial;            
+           
+            
+           
+        }
+        #iconMenu{
+            width: 100px;
+            height: 25px;
+            padding-top: 10%;
+            
+        }
+        #iconMenu:hover{
+            color: #EB5F22
+        }
+
+}
+@media screen and (min-width:992px){
+    nav{
+        position: fixed;
+    }
+    
+    .links{
+        left:10%;
+        display: inline;
+        background-color: transparent;
+         margin: 0%;
+         padding-left: 30px;
+        
+    }
+    #menu{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px){
+    nav{
+        position: fixed;
+    }
+    .links{
+        display: inline;
+        padding: 20px;
+        
+    }
+}

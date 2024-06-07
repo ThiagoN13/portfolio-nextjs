@@ -1,22 +1,17 @@
-#fundo {
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
 
-    background-color: #2f3238 !important;
+    50% {
+        background-position: 100% 0;
+    }
 
+    100% {
+        background-position: 0 0;
+    }
 }
-.fundoNav{
-    background-color: #000000CC;
-    margin:-3%;
-    
-    padding: 0;
-    position: fixed;
-    width: 101.7%;
-    height: 130px;
-    
-    align-items:center;
-    
-    display: flex;
-   
-}
+
 
 h2 {
     color: white;
@@ -31,7 +26,7 @@ h1 {
 
 
 .linhaTitulo {
-    border-bottom: 4px solid #EB5F22;
+    border-bottom: 4px solid #666666 !important;
     position: sticky;
     height: 4px;
     width: 80px;
@@ -44,63 +39,183 @@ h1 {
     width: 100% !important;
     padding-bottom: 3%;
 
-
 }
 
 .caixaTitulo:hover {
     .linhaTitulo {
-        width: 300px;
+        width: 100px;
         transition: 500ms linear;
     }
 }
 
-p {
+#caseSobre {
+    display: inline-flex;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: -5%;
+}
+
+#caseTxt {
+    display: block;
+
+}
+
+#txtSobre {
+    width: 400px;
     font-size: 17px;
     color: white;
-    text-align: center;
+    text-align: left;
     font-family: "Opens Sans", "Helvetica Neue", ;
+    color: #666666;
 }
 
-.container {
-
+#caseImg {
     display: flex;
 
+    margin-left: 1%;
 
 }
 
-.linguagens {
+#th {
+    width: 100%;
+    height: 550px;
+    margin-bottom: -10%;
 
-    width: 255px;
-    height: 30px;
-    background-color: #EB5F22;
-    background-image: linear-gradient(45deg, hsla(0, 0%, 100%, .15) 25%, transparent 0, transparent 50%, hsla(0, 0%, 100%, .15) 0, hsla(0, 0%, 100%, .15) 75%, transparent 0, transparent);
-    background-size: 1rem 1rem;
-    margin: 10px;
-    border-radius: 5px;
-    font-family: "Opens Sans", "Helvetica Neue", ;
-    align-content: center;
-    text-align: center;
-    color: white;
+
+}
+
+#tituloEmpresa {
+    height: 90px;
+    padding-top: 30px;
+    transform: translate(100%, 0%);
+
 
 }
 
 #empresa {
+    color: #7A6F58;
+    margin-left: 70px;
+    font-size: 120%;
 
-    padding-top: 10%;
+
+
 }
+
+#caseEmpresas {
+
+    height: 0;
+    display: flex;
+    margin-left: -15%;
+    margin-top: 6%;
+
+}
+
+
 
 .logoEmpresa {
 
-    width: 150px;
-    padding: 30px;
-    margin-right: 100px;
-    transform: translate(50%, -10%);
-    display: inline;
+    width: 110px;
+    padding: 20px;
+    margin-left: -35%;
+    transform: translate(60%, -5%);
     transition: 1000ms;
 }
 
 .logoEmpresa:hover {
 
     transition: 400ms;
-    transform:translate(50%, -20%);
+    transform: translate(60%, 0%);
+}
+
+
+#botaoName{
+    margin: 0;
+    color:white;
+}
+#botao {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    transform: translate(-150%,300%);
+    
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 1px 0px #EB5F22;
+    filter: dropshadow(color=#EB5F22, offx=0px, offy=1px);
+
+    -webkit-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
+    -moz-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
+    box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+   
+}
+
+#botao:before {
+    content: '';
+    background: linear-gradient(100deg,  #EB5F22,  #6666,black);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 5s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+#botao:active {
+    color: #000;
+    
+    top: 5px;
+    
+
+    -webkit-box-shadow: inset 0 1px 0 #EB5F22,
+    inset 0 -3px 0 #EB5F22;
+    -moz-box-shadow: inset 0 1px 0 #EB5F22,
+    inset 0 -3pxpx 0 #EB5F22;
+    box-shadow: inset 0 1px 0 #EB5F22,
+    inset 0 -3px 0 #EB5F22;
+}
+
+#botao:active:after {
+    background: transparent;
+    content: "";
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    position: absolute;
+    bottom: -15px;
+    left: -4px;
+    z-index: -1;
+    background-color: #EB5F22;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#botao:before {
+    opacity: 1;
+}
+#botao:after{
+    z-index:-1;
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:#111;
+    left:0;
+    top:0;
+    border-radius:10px;
 }

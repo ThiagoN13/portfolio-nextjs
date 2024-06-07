@@ -1,0 +1,21 @@
+@media screen and (max-width:600px){
+    h1{
+        
+        font-size:x-large;
+    
+    }
+    h3{
+        font-size: medium;
+    }
+    
+    .estrelas{
+        margin-left: 35%;
+       
+        width: 80px;
+        background-repeat: no-repeat;
+        
+    }
+    #foguetes{
+        visibility: hidden;
+    }
+    }
