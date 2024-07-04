@@ -1,66 +1,76 @@
-#caixa{
-    color:white;
-    background-color:#26292e !important; 
-    padding:10px;
+#caixa {
+    color: white;
+    background-color: #26292e !important;
+    padding: 10px;
 
 }
-#caixaIcon{
-    left:50%;
+
+#caixaIcon {
+    left: 50%;
     align-items: center;
     justify-content: center;
     display: flex;
-    padding:10px;
-    
+    padding: 10px;
 
 
 }
-    .iconGitLab,
-    .iconLinkedin,
-    .iconGitHub,
-    .iconMail
-    {
-        
-        border: 1px solid #26292e;
-        border-radius: 100%;
-      margin: 15px;
-        width:19px;
-        height: 19px;
-        transition: 1000ms;
-        
-        
-    }
-    .iconGitLab:hover,
-    .iconLinkedin:hover,
-    .iconGitHub:hover,
-    .iconMail:hover
-    {
-     border:1px solid #EB5F22;
-     left:10%;
-     transform: translate(5%,0%);
-     transition: 400ms;
-    }
-        
- #tnStrong{
- color: #EB5F22;
- 
- }
- #developed{
+
+.iconGitLab,
+.iconLinkedin,
+.iconGitHub,
+.iconMail {
+
+    border: 1px solid #26292e;
+    border-radius: 100%;
+    margin: 15px;
+    width: 19px;
+    height: 19px;
+    transition: 1000ms;
+    color: white;
+
+}
+
+.iconGitLab:hover,
+.iconLinkedin:hover,
+.iconGitHub:hover,
+.iconMail:hover {
+    border: 1px solid #EB5F22;
+    left: 10%;
+    transform: translate(5%, 0%);
+    transition: 400ms;
+}
+
+a{
+    text-decoration: none;
+}
+#tnStrong {
+    color: #EB5F22;
+    text-decoration: none;
+
+}
+
+#developed {
     display: relative;
     text-align: right;
+    text-decoration: none;
     margin-right: 35px;
- }
+}
 
- #copy{
-    
-    text-align:left;
-    margin-left:35px;
+#copy {
+
+    text-align: left;
+    margin-left: 35px;
     margin-bottom: -3%;
 
- }
- #fraseFooter{
-   margin-top: 1.5%;
+}
+
+#fraseFooter {
+    color: white;
+    text-decoration: none;
+    margin-top: 1.5%;
+    font-family: Bradley Hand, cursive;
     align-items: center;
     justify-content: center;
-    display: flex; 
-    
+    display: flex;
+
 }

@@ -1,9 +1,12 @@
 import Link
 from "next/link"
 import './footer.css'
+import './queryfooter.css'
 import Navbar from "./navbar";
 import {FaGitlab, FaLinkedin,FaGithub} from "react-icons/fa"
 import { HiOutlineMailOpen } from "react-icons/hi";
+import { BiSolidHeartCircle } from "react-icons/bi";
+
 
 
 
@@ -13,7 +16,7 @@ export default function Footer(){
         <>
         <div id='caixa'>
             <Link id='fraseFooter' href='/'>
-               Feito com amor S2 Thiago Nogueira 
+               Feito com amor  <BiSolidHeartCircle />  Thiago Nogueira 
             </Link>
             <div id='caixaIcon'>
                 <Link href='https://gitlab.com/thiago.nogueira187' className={'iconGitLab'} target="_blank" locale={false}>

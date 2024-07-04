@@ -1,0 +1,43 @@
+@keyframes arrowMove{
+  from{
+    transform: translate(-20%, 300%);
+    opacity: 0%;
+  }
+  to{
+    transform: translate(-20%,280%);
+    opacity:100%;
+  }
+}
+
+#caseBotaoInicio {
+  width: 93%;
+  border-radius: 100%;
+  display: flex;
+  justify-content:right;
+  position: fixed;
+}
+
+#botaoInicio {
+  position: fixed;
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+  transform: translate(-20%, 300%);
+  color: #EB5F22;
+  animation: arrowMove 2s infinite;
+}
+
+#botaoInicio:hover {
+  color:white;
+}
+
+@media screen and (max-width:600px){
+  #caseBotaoInicio{
+    justify-content:start;
+    position: relative;
+  }
+  #botaoInicio{
+    position: fixed;
+    margin-bottom: -20%;
+  }
+}

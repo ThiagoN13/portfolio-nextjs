@@ -1,6 +1,7 @@
 import './sobre.css';
+import './querysobre.css'
 import Link from 'next/link';
-
+import GitBotao from '../components/GitBotao';
 
 export default function Sobre() {
     return (
@@ -11,14 +12,15 @@ export default function Sobre() {
 
             <div id='fundoSobre'>
                 <div className={'caixaTitulo'}>
-                    <h1>Prazer, Thiago Nogueira </h1>
+                    <h1 id='titulo'>Prazer, Thiago Nogueira </h1>
                     <div className={'linhaTitulo'}></div>
                 </div>
 
                 <div id='caseSobre'>
 
                     <div id='caseImg'>
-                        <img id='th' src='./img/Th edit.png'></img>
+                        <img id='threspo2' src='./img/threspo2.gif'></img>
+                        <img id='th' src='./img/Th edit2.gif'></img>
                     </div>
                     <div id='tituloEmpresa'>
                         <h2>
@@ -41,11 +43,9 @@ export default function Sobre() {
                             <img className={'logoEmpresa'} src="/img/aarin.png" alt="AARIN" />
                         </Link>
 
+                        <GitBotao />
 
 
-                        <Link href='#gitHub'><button id='botao'>
-                            <h3 id='botaoName'>Projetos</h3>
-                            </button></Link>
 
 
                     </div>
