@@ -1,8 +1,8 @@
 #caixa {
     color: white;
-    background-color: #26292e !important;
+    background-blend-mode:lighten;
     padding: 10px;
-
+    font-family:Opens Sans;
 }
 
 #caixaIcon {
@@ -42,11 +42,12 @@
 
 a{
     text-decoration: none;
+    font-family:Opens Sans;
 }
 #tnStrong {
     color: #EB5F22;
     text-decoration: none;
-
+    font-family:Opens Sans;
 }
 
 #developed {
@@ -54,6 +55,7 @@ a{
     text-align: right;
     text-decoration: none;
     margin-right: 35px;
+    font-family:Opens Sans;
 }
 
 #copy {
@@ -61,14 +63,15 @@ a{
     text-align: left;
     margin-left: 35px;
     margin-bottom: -3%;
-
+    font-family:Opens Sans;
 }
 
 #fraseFooter {
     color: white;
     text-decoration: none;
     margin-top: 1.5%;
-    font-family: Bradley Hand, cursive;
+    font-family:Opens Sans;
+    font-size: 19px !important;;
     align-items: center;
     justify-content: center;
     display: flex;

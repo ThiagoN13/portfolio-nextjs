@@ -14,7 +14,7 @@ import { BiSolidHeartCircle } from "react-icons/bi";
 export default function Footer(){
     return(
         <>
-        <div id='caixa'>
+        <div id='caixa' style={{backgroundImage:"url(/img/testandofundo.gif)"}}>
             <Link id='fraseFooter' href='/'>
                Feito com amor  <BiSolidHeartCircle />  Thiago Nogueira 
             </Link>

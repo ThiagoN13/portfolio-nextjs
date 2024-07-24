@@ -4,6 +4,7 @@ import './navbar.css';
 import { useState } from 'react';
 import './querynavbar.css'
 import { Link as ScrollLink } from 'react-scroll';
+import Link from 'next/link';
 import { useEffect } from 'react';
 import { ImMenu3 } from "react-icons/im";
 import { get } from 'http';
@@ -38,7 +39,7 @@ export default function Navbar() {
                 </li>
                 <li className={'links'}>
 
-                    <ScrollLink to='th' smooth={true} duration={1000}>
+                    <ScrollLink to='caixaTituloSobre' smooth={true} duration={1000}>
                         Sobre
                     </ScrollLink>
 
@@ -59,9 +60,9 @@ export default function Navbar() {
                 </li>
                 <li className={'links'}>
 
-                    <ScrollLink to='blog' smooth={true} duration={1000}>
+                    <Link href='/blog' id='linkBlog'>
                         Blog
-                    </ScrollLink>
+                    </Link>
 
                 </li>
             </ul>

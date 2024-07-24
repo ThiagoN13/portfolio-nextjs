@@ -217,20 +217,22 @@
         margin-left: -550px;
     }
 
-    #tituloEmpresa {
-        font-size: 20px;
-        transform: translate(-90%, 10%);
-    }
+   
 
     .logoEmpresa {
-        width: 120px;
+        width: 110px;
         padding: 20px;
-        transform: translate(-200%, -20%);
+        margin-left: 30px;
+        transform: translate(350%, -250%)!important;
     }
 
     .logoEmpresa:hover {
         transition: 400ms;
-        transform: translate(-200%, 0%);
+        padding: 20px;
+        margin-left: 30px;
+        transform: translate(350%, -245%)!important;
+       
+        
     }
 
     #botao {

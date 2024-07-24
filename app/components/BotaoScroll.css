@@ -1,21 +1,23 @@
 @keyframes arrowMove1{
     from{
-      transform: translate(95%, 30%);
+      transform: translate(95%, 10%);
       opacity: 0%;
     }
     to{
-      transform: translate(95%,55%);
+      transform: translate(95%,25%);
       opacity:100%;
     }
   }
 #caseBotaoScroll{
   width: 100%;
+
 }
   #botaoScroll{
     color:white;
     width: 100px;
     height: 60px;
     cursor:pointer;
+    z-index: 1 !important;
     animation: arrowMove1 2s infinite;
   }
   
@@ -76,11 +78,11 @@
   @media screen and (min-width:1349px){
     @keyframes arrowMove1{
       from{
-        transform: translate(630%, 30%);
+        transform: translate(630%, -40%);
         opacity: 0%;
       }
       to{
-        transform: translate(630%,55%);
+        transform: translate(630%,-20%);
         opacity:100%;
       }
     }

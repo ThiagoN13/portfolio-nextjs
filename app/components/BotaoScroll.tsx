@@ -7,7 +7,7 @@ import './BotaoScroll.css'
 export default function BotaoScroll(){
     return(
         <div id='caseBotaoScroll'>
-        <ScrollLink to="th" smooth={true} duration={1000}>
+        <ScrollLink to="caixaTituloSobre" smooth={true} duration={1000}>
         <MdOutlineKeyboardDoubleArrowDown id='botaoScroll' />
         </ScrollLink>
         </div>

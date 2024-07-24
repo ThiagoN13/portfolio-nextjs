@@ -1,5 +1,6 @@
 #fundoGit {
-    background-color: #2f3238;
+    background: rgb(15, 15, 15);
+    background-blend-mode: darken;
     margin-top: -38px;
 
 
@@ -28,7 +29,8 @@ h1 {
     color:white;
     list-style: none;
     padding: 10px;
-    font-family:Impact, fantasy;
+    margin-top: 50px;
+    font-family:Opens Sans;
 }
 
 .pagination li {
@@ -37,7 +39,7 @@ h1 {
 }
 
 .pagination li a {
-    border: 1px solid black;
+    border: 1px solid rgb(252, 252, 252);
     padding: 8px 16px;
     text-decoration: none;
     border-radius: 30px;
@@ -80,7 +82,7 @@ h1 {
 
 .tituloProjeto {
     text-align: center;
-    font-family:Snell Roundhand, cursive;
+    font-family:Opens Sans;
     text-transform: lowercase;
     color: black;
 }

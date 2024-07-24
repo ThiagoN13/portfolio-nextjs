@@ -24,10 +24,24 @@ export default function GitHub() {
     return (
 
 
-        <div id='fundoGit'>
+        <div id='fundoGit'style={{backgroundImage:"url(/img/fundogit.png)"}}>
             <div className='caixaTitulo'>
                 <h1>GitHub</h1>
                 <div id='linha' className={'linhaTitulo'}> </div>
+            </div>
+            
+            <div id='container'>
+                {currentProjects.map((projetos, index) => (
+                    <div className={'portfolioBox'} key={index}>
+                        <Link className={'linkBox'} href={projetos.href} target="_blank">
+                            <span className="projetoName">
+                                <p className='tituloProjeto'> {projetos.name}</p>
+                            </span>
+                            <img className={'gitImg'} src="/img/icons8-github-150.png"></img>
+                            <img className='gitGif' src="/img/output-onlinegiftools.gif" alt="" />
+                        </Link>
+                    </div>
+                ))}
             </div>
             <ReactPaginate
                 previousLabel={<IoArrowUndo />}
@@ -42,19 +56,6 @@ export default function GitHub() {
                 activeClassName={'active'}
             />
 
-            <div id='container'>
-                {currentProjects.map((projetos, index) => (
-                    <div className={'portfolioBox'} key={index}>
-                        <Link className={'linkBox'} href={projetos.href} target="_blank">
-                            <span className="projetoName">
-                                <p className='tituloProjeto'> {projetos.name}</p>
-                            </span>
-                            <img className={'gitImg'} src="/img/icons8-github-150.png"></img>
-                            <img className='gitGif' src="/img/output-onlinegiftools.gif" alt="" />
-                        </Link>
-                    </div>
-                ))}
-            </div>
         </div>
 
 

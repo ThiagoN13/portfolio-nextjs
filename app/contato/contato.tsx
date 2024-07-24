@@ -1,7 +1,7 @@
 import Link from "next/link"
 import './contato.css'
 import './querycontato.css'
-import { RiSendPlaneFill } from "react-icons/ri";
+
 
 
 
@@ -9,7 +9,7 @@ export default function Contato() {
     return (
         <>
 
-            <div id ='fundoContato'>
+            <div id ='fundoContato' style={{backgroundImage:"url(/img/fundogit.png)"}}>
                 <div className='caixaTitulo'>
                     <h1>Contato</h1>
                     <div className='linhaTitulo'></div>
@@ -21,7 +21,7 @@ export default function Contato() {
                         <input type='text' placeholder='Nome' className="inputForm"></input>
                         <input type='email' placeholder="E-mail" className='inputForm'></input>
                         <textarea  style={{resize:'none'}} placeholder='Mensagem' id='inputMsg' className="inputForm"></textarea>
-                        <button  id='inputButton'><RiSendPlaneFill id='send'/> </button>
+                        <button  id='inputButton'>Enviar </button>
                     </form>
                 </div>
             </div>
