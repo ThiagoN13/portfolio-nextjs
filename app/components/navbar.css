@@ -13,8 +13,11 @@ html {
 
 nav {
   margin-top: 30px;
+<<<<<<< HEAD
   margin-left: -5%;
   text-align: center;
+=======
+>>>>>>> ee6535e8ef94df94c7052a168b307e96ea5f6c0a
   padding-top: -40px!important;
   position: fixed;
   z-index: 1;
@@ -51,11 +54,23 @@ nav {
   list-style-type: none;
   color: white;
   text-decoration: none;
+<<<<<<< HEAD
   position: relative;
   font-family: Courier, monospace;
   font-size: 100%;
 
 }
+=======
+  left: 600px;
+  position: relative;
+  margin-left: 36px;
+  font-family: Courier, monospace;
+  font-size: 17px;
+
+}
+
+
+>>>>>>> ee6535e8ef94df94c7052a168b307e96ea5f6c0a
 
 
 

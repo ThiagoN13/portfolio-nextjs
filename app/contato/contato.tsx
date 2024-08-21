@@ -1,6 +1,10 @@
 import Link from "next/link"
 import './contato.css'
+<<<<<<< HEAD
 
+=======
+import './querycontato.css'
+>>>>>>> ee6535e8ef94df94c7052a168b307e96ea5f6c0a
 
 
 
@@ -9,7 +13,7 @@ export default function Contato() {
     return (
         <>
 
-            <div id ='fundoContato'>
+            <div id ='fundoContato' style={{backgroundImage:"url(/img/fundogit.png)"}}>
                 <div className='caixaTitulo'>
                     <h1>Contato</h1>
                     <div className={'caixaLinha'}>

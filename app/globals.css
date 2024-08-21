@@ -16,6 +16,7 @@ html {
   }
 
 }
+<<<<<<< HEAD
 
 body {
 
@@ -71,6 +72,75 @@ h2 {
   text-transform: none;
 }
 
+=======
+
+body {
+
+  overflow-x: hidden;
+  margin: 0%;
+  margin-top: -35px;
+
+}
+
+#fundoNav {
+  background-color: transparent;
+}
+
+#fundo {
+  overflow: hidden;
+  height: 810px;
+  width: 100%;
+  margin: 0%;
+  background: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  z-index: 1;
+}
+
+.textos {
+
+
+  animation: textosMove 15s;
+  transform: translate(0%, 0%);
+}
+
+
+
+
+
+#sobre {
+  
+  background-color:#000000CC;
+  margin-top: 60.1px;
+  height: 900px;
+  transform: rotate(3.142rad);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-family: Opens Sans;
+}
+
+h1 {
+  padding: 40vh 0 0;
+  font-size: 50px;
+  font-family: Opens Sans;
+  text-transform: none;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+h1 strong {
+  font-weight: 800;
+}
+
+h2 {
+  font-family: Opens Sans;
+  text-transform: none;
+}
+
+>>>>>>> ee6535e8ef94df94c7052a168b307e96ea5f6c0a
 h3 {
   font-size: 25px;
   font-weight: 900;
@@ -94,5 +164,9 @@ h5 {
 
 #gitHub {
   margin-top: -200px;
+<<<<<<< HEAD
  background-repeat: no-repeat;
+=======
+
+>>>>>>> ee6535e8ef94df94c7052a168b307e96ea5f6c0a
 }

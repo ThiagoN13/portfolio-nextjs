@@ -1,9 +1,8 @@
-#caixa {
-    color: white;
-    background: rgb(14, 14, 14);
-    box-shadow: 5px 5px 5px 5px rgb(117, 117, 117), 0 6px 20px 0 rgb(117, 117, 117);
-    padding: 10px;
-    font-family:Opens Sans;
+#caixa{
+    color:white;
+    background-color:#26292e !important; 
+    padding:10px;
+
 }
 
 #caixaIcon {

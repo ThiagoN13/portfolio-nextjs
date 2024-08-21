@@ -46,7 +46,11 @@ export default function Navbar() {
                 </li>
                 <li className={'links'}>
 
+<<<<<<< HEAD
                     <ScrollLink to='container' smooth={true} duration={1000}>
+=======
+                    <ScrollLink to='linha' smooth={true} duration={1000}>
+>>>>>>> ee6535e8ef94df94c7052a168b307e96ea5f6c0a
                         GitHub
                     </ScrollLink>
 

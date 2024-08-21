@@ -1,0 +1,40 @@
+@media screen and (min-width:320px) {
+  .inputForm {
+    width: 300px;
+  }
+
+  #inputButton {
+    transform: translateX(40%);
+  }
+}
+
+@media screen and (min-width:375px) {
+  #fraseContato {
+    font-size: small;
+  }
+}
+
+@media screen and (min-width:425px) {
+  .inputForm {
+    width: 400px;
+
+  }
+
+  #inputButton {
+    transform: translateX(80%);
+  }
+
+
+}
+@media screen and (min-width:768px){
+  #fraseContato {
+    font-size: medium;
+  }
+  .inputForm{
+    width:700px;
+  }
+
+  #inputButton {
+    transform: translateX(180%);
+  }
+}

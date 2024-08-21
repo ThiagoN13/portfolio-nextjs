@@ -1,10 +1,11 @@
 
 import './globals.css';
-
-import Link from 'next'
-import {useEffect} from 'react';
+import './homequery.css';
+import '../../projeto-principal/public/img/estrelas.jpg';
+import Link from 'next/link';
 import { GiUfo } from "react-icons/gi";
 import { BsFillRocketFill } from "react-icons/bs";
+import BotaoScroll from './components/BotaoScroll';
 import NavBar from './components/navbar';
 import Sobre from './sobre/sobre';
 import GitHub from './github/github';
@@ -23,7 +24,8 @@ export default function Home() {
     
     <body  >
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div id='fundo' style={{backgroundImage:"url(/img/fundotest.png)"}}>
+        <div id='fundo' style={{ backgroundImage: `url(/img/estrelas.jpg)` }}>
+
           <header>
             <NavBar></NavBar>
           </header>
@@ -36,23 +38,28 @@ export default function Home() {
             </strong>
             </h1>
             <h3>Software Engineer</h3>
-         
- 
-           
+
           </div>
+
+
+          <div id='caixaFoguete'>
+            <BsFillRocketFill id='foguete' />
           </div>
-        <section id='sobre'style={{backgroundImage:"url(/img/fundotest.png)"}}>
+
+        </div>
+
+        <div id='sobre'>
+        <div id='caseOvni'>
+          <GiUfo id='ovni' />
+          </div>
           <Sobre />
-        </section>
-       
-        <section id='gitHub'>
+        </div>
+        <div id='gitHub'>
           <GitHub /> 
         </section>
         <section id='contato' >
           <Contato />
-        </section>
-      
-        
+        </div>
         <footer>
           <Footer />
         </footer>

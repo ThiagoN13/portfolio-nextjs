@@ -1,7 +1,10 @@
 #navBlog{
   width: 100%; 
   text-align: center;
+<<<<<<< HEAD
   font-family: Opens Sans;
+=======
+>>>>>>> ee6535e8ef94df94c7052a168b307e96ea5f6c0a
 }
 #ulBlog{
   width: 100%;
@@ -33,7 +36,10 @@
   }
 #textMarca{
     color: white !important;
+<<<<<<< HEAD
     font-family: Opens Sans;
+=======
+>>>>>>> ee6535e8ef94df94c7052a168b307e96ea5f6c0a
 }
 #textMarca:hover{
     color:#EB5F22 !important;
