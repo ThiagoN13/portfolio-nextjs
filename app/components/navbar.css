@@ -1,62 +1,68 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
-
+html {
+  scroll-behavior: smooth;
+}
 
 #fundo {
   background-color: #000000CC;
 }
 
-img {
+#logo {
   width: 20px;
   display: inline;
 }
 
 nav {
- padding-top: 20px;
- position: fixed;
+  margin-top: 30px;
+  margin-left: -5%;
+  text-align: center;
+  padding-top: -40px!important;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+#menu{
+  color:white;
 }
 
 .marca {
   padding: 30px;
-  font-size: 22px;
+  font-size: 170%;
   font-weight: 900;
+  color: white;
+  text-decoration: none;
+  font-family:Opens Sans;
   display: inline;
   list-style-type: none;
-
-
 }
 
 .marca :hover {
-  color: #EB5F22
+  color: #EB5F22;
+  cursor: pointer;
+}
+#linkBlog{
+  color:#EB5F22!important;
+}
+#linkBlog:hover{
+ color:white !important;
 }
 
 .links {
-
   display: inline;
   list-style-type: none;
-  left: 600px;
-  position: relative;
-  margin-left: 36px;
-  font-family: 'Roboto', 'sans-serif';
-  font-size: 17px;
-
-
-}
-
-a {
-
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
-
+  position: relative;
+  font-family: Courier, monospace;
+  font-size: 100%;
 
 }
+
+
 
 .links a:hover,
 .links a:focus {
   border-bottom: 1px inset #EB5F22;
   padding-bottom: 10px;
   color: #EB5F22;
-
+  cursor: pointer;
 }
-

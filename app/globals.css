@@ -1,176 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-@keyframes move{
-  0%{
-    top:50%;
-    visibility: visible;
-    transform: translate(90%,-1000%);
-   
-    
-  }
-    70%{
-      transform: rotate(180deg);
-      transform: translate(-90%, -30%);
-    }
-    80%{
-      
-      transform: rotate(110deg);
-    }
-    
- 
+html {
+  scroll-behavior: smooth;
 }
-@keyframes ovniMove{
-  0%{
-   
 
-    visibility: hidden;
-    transform: translate(0%, -60%);
-   
+
+
+@keyframes textosMove {
+  from {
+    transform: translate(0%, 130%);
   }
-  80%{
-   
-    visibility: visible;
-    transform:translate(0%,-500%);
-  
+
+  to {
+    transform: translate(0%, 0%);
   }
-  100%{
-    visibility: hidden;
-    transform: translate(0%,50%);
-  }
+
 }
-@keyframes textosMove{
-  from{
-    transform: translate(0%,100%);
-  }
-   to{
-    transform: translate(0%,0%);
-  }
- 
-}
- 
- body
- {
 
-   text-rendering: optimizelLegibility !important;
-   overflow-x: hidden;
-   margin: 0%;
-   margin-top: -35px;
-   color: #cfcfcf;
- }
+body {
 
- #fundoNav{
-  background-color: transparent;
- }
-
-#fundo{
-  height: 695px;
-  width: 100%;
+  overflow-x: hidden;
   margin: 0%;
-  background: rgb(0, 0, 0);
-  background-size:cover;
-  background-blend-mode:darken;
+  margin-top: -35px;
 
 }
 
-.estrelas{
-  width:900px;
-  margin-bottom:-200px;
-  height: 300px;
-  background: rgba(0, 0, 0, 0.7);
-  display:inline-block;
-  background-blend-mode:darken;
-  background-repeat: repeat;
-  
-}
-.textos{
-  animation: textosMove 15s ;
-  transform: translate(0%,0%);
-  
-}
-#caseOvni{
-  display: flex;
-  justify-content: center;
-  visibility: hidden;
-  animation: ovniMove 11s linear;
-
-
-}
-#ovni{
-  height: 69px;
-  width: 65px;
-  
-
+#fundoNav {
+  background-color: transparent;
 }
 
-#caixaFoguete{
-  display:flex;
-  margin-left: -300px;  
-  animation: move 20s infinite;
-
-
-}
-#foguete{
-  visibility: visible;
-transform: rotate(-110deg);
-  height: 40px;
-  width: 40px;
-  
-
- 
+#fundo {
+  overflow: hidden;
+  height: 1400px;
+  width: 100%;
+  background-repeat: no-repeat;
   
 }
 
-#sobre{
-  margin-top:-27px;
- 
-  background: rgba(0, 0, 0, 0.7);
-  background-blend-mode:darken;
-    background-color: #041024;
-   
-    
+.textos {
+
+
+  animation: textosMove 9s;
+  transform: translate(0%, 0%);
 }
 
- h1 {
-   padding: 40vh 0 0;
-   font-size: 40px;
-   text-transform: none;
-    text-align:center;
+#sobre {
+  margin-top: -30%;
+  z-index: 1;
+}
+
+p {
+  font-family: Opens Sans;
+}
+
+h1 {
+  padding: 40vh 0 0;
+  font-size: 50px;
+  font-family: Opens Sans;
+  text-transform: none;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+h1 strong {
+  font-weight: 800;
+}
+
+h2 {
+  font-family: Opens Sans;
+  text-transform: none;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #ffff;
+  font-family: Opens Sans;
+  text-align: center;
+}
 
 
- }
 
- h1 strong {
-   font-weight: 800;
+h4 {
+  text-transform: none;
+}
 
- }
-
- h2 {
-   text-transform: none;
-
- }
-
- h3 {
-   font-size: 25px;
-   font-weight: 900;
-   color: #ffff;
-   font-family: "Opens Sans", "Helvetica Neue";
-   text-align: center;
-  }
+h5 {
+  text-transform: none;
+  font-weight: 700;
+  line-height: 20px;
+}
 
 
-
- h4 {
-   text-transform: none;
- }
-
- h5 {
-   text-transform: none;
-   font-weight: 700;
-   line-height: 20px;
-
- }
-
-
- img {
-   max-width: 100% !important;
-   object-fit: cover;
- }
+#gitHub {
+  margin-top: -200px;
+ background-repeat: no-repeat;
+}

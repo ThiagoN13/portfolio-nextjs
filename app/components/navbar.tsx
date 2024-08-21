@@ -3,7 +3,9 @@ import { url } from 'inspector';
 import './navbar.css';
 import { useState } from 'react';
 import './querynavbar.css'
+import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
+import { useEffect } from 'react';
 import { ImMenu3 } from "react-icons/im";
 import { get } from 'http';
 
@@ -12,54 +14,53 @@ import { get } from 'http';
 export default function Navbar() {
     const [linksDisplay, setLinksDisplay] = useState('none');
 
+
+
+
     return (
 
         <nav>
             <ul>
-            <div id='menu'>
+                <div id='menu'>
                     <ImMenu3 id='iconMenu' onClick={clickMenu} />
                 </div>
                 <li className={'marca'}>
-                    <Link href='/'>
-                        <img src='/img/logo.png' alt="" />
+                    <ScrollLink to='fundo' smooth={true} duration={500}>
+                        <img id='logo' src='/img/logo.png' alt="" />
 
                         THIAGO N.
-                    </Link>
+                    </ScrollLink>
 
 
                 </li>
 
-                
-
-
-
                 <li className={'links'}>
-                    <Link href='/'> Início</Link>
+                    <ScrollLink to='fundo' smooth={true} duration={1000}> Início</ScrollLink>
                 </li>
                 <li className={'links'}>
 
-                    <Link href='#sobre'>
+                    <ScrollLink to='caixaTituloSobre' smooth={true} duration={1000}>
                         Sobre
-                    </Link>
+                    </ScrollLink>
 
                 </li>
                 <li className={'links'}>
 
-                    <Link href='#gitHub'>
+                    <ScrollLink to='container' smooth={true} duration={1000}>
                         GitHub
-                    </Link>
+                    </ScrollLink>
 
                 </li >
                 <li className={'links'}>
 
-                    <Link href='#contato'>
+                    <ScrollLink to='fraseContato' smooth={true} duration={1000}>
                         Contato
-                    </Link>
+                    </ScrollLink>
 
                 </li>
                 <li className={'links'}>
 
-                    <Link href='#blog'>
+                    <Link href='/blog' id='linkBlog'>
                         Blog
                     </Link>
 

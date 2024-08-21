@@ -1,6 +1,8 @@
     #fundoContato {
-      background-color: #2f3238;
-      margin-top: -27px;
+      width:100%;
+      background: rgb(15, 15, 15);
+      margin-top: -150px;
+      background-repeat: no-repeat;
     }
 
 
@@ -16,16 +18,6 @@
       font-size: 18px;
     }
 
-    .linhaTitulo {
-      border-bottom: 4px solid #EB5F22;
-      position: sticky;
-      height: 4px;
-      width: 80px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      transition: 1000ms;
-    }
-
     .caixaTitulo {
       width: 100% !important;
       padding-bottom: 3%;
@@ -33,17 +25,13 @@
 
     }
 
-    .caixaTitulo:hover {
-      .linhaTitulo {
-        width: 300px;
-        transition: 500ms linear;
-      }
-    }
+
 
     #containerForm {
       justify-content: center;
       display: flex;
       padding-bottom: 10px;
+     
 
     }
 
@@ -59,7 +47,10 @@
       outline: 0;
       padding-left: 10px;
     }
-
+    .inputForm::-webkit-input-placeholder{
+      font-family:Opens Sans;
+      text-transform: uppercase;
+    }
     #inputMsg {
 
 
@@ -73,65 +64,16 @@
       color: white;
       cursor: pointer;
       position: relative;
-      display: inline-block;
       margin: 20px;
       transform: translateX(170%);
-    }
-
-    #inputButton {
       color: white;
       font-weight: bold;
-      font-size: 12px;
-      text-align: st;
+      font-size: 20px;
+      font-family:Opens Sans;
+      text-align: center;
       text-decoration: none;
       display: block;
-      position: relative;
-      padding: 20px 40px;
-
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-      text-shadow: 0px 1px 0px #000;
-      filter: dropshadow(color=#000, offx=0px, offy=1px);
-
-      -webkit-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
-      -moz-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
-      box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #26292E;
-
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-    }
-
-    #inputButton:active {
     
-      top: 10px;
-      background-color: #26292E;
-
-      -webkit-box-shadow: inset 0 1px 0 #FFE5C4,
-      inset 0 -3px 0 #26292E;
-      -moz-box-shadow: inset 0 1px 0 #FFE5C4,
-      inset 0 -3pxpx 0 #26292E;
-      box-shadow: inset 0 1px 0 #FFE5C4,
-      inset 0 -3px 0 #FFE5C4;
     }
 
-    .inputButton:after {
-      content: "";
-      height: 100%;
-      width: 100%;
-      padding: 4px;
-      position: absolute;
-      bottom: -15px;
-      left: -4px;
-      z-index: -1;
-      background-color: #a8630e;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-    }
-
-    #send {
-      width: 25px;
-      height: 25px;
-      margin-top: -10px;
-     
-    }
+    

@@ -1,15 +1,15 @@
-@media screen and (max-width:992px)  {
+@media screen and (max-width:767px)  {
     nav{
         position: fixed;
     }
     .marca{
-        margin-left:-10%;
+        margin-left:-5%;
     }
     
     .links{
         
         display: block;
-        left: -20%;
+        left: -11%;
         width: 100%;
        padding: 10px;
        margin-left: 5%;
@@ -18,8 +18,8 @@
         #menu{
             
             display:inline-flex;
-            
-            margin-left: -20%;
+            padding-right: 10px;
+            margin-left: -10%;
              justify-content:initial;            
            
             
@@ -36,17 +36,17 @@
         }
 
 }
-@media screen and (min-width:992px){
+@media screen and (min-width:768px){
     nav{
         position: fixed;
     }
     
     .links{
-        left:10%;
+        
         display: inline;
         background-color: transparent;
          margin: 0%;
-         padding-left: 30px;
+         padding-left: 20px;
         
     }
     #menu{
