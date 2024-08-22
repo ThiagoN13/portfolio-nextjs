@@ -1,66 +1,80 @@
 #caixa{
     color:white;
-    background-color:#26292e !important; 
+    background: rgb(15, 15, 15);
     padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(156, 156, 156, 0.2), 0 6px 20px 0 rgba(156, 156, 156, 0.19);
 
 }
-#caixaIcon{
-    left:50%;
+
+#caixaIcon {
+    left: 50%;
     align-items: center;
     justify-content: center;
     display: flex;
-    padding:10px;
-    
+    padding: 10px;
 
 
 }
-    .iconGitLab,
-    .iconLinkedin,
-    .iconGitHub,
-    .iconMail
-    {
-        
-        border: 1px solid #26292e;
-        border-radius: 100%;
-      margin: 15px;
-        width:19px;
-        height: 19px;
-        transition: 1000ms;
-        
-        
-    }
-    .iconGitLab:hover,
-    .iconLinkedin:hover,
-    .iconGitHub:hover,
-    .iconMail:hover
-    {
-     border:1px solid #EB5F22;
-     left:10%;
-     transform: translate(5%,0%);
-     transition: 400ms;
-    }
-        
- #tnStrong{
- color: #EB5F22;
- 
- }
- #developed{
+
+.iconGitLab,
+.iconLinkedin,
+.iconGitHub,
+.iconMail {
+
+    border: 1px solid #26292e;
+    border-radius: 100%;
+    margin: 15px;
+    width: 19px;
+    height: 19px;
+    transition: 1000ms;
+    color: white;
+
+}
+
+.iconGitLab:hover,
+.iconLinkedin:hover,
+.iconGitHub:hover,
+.iconMail:hover {
+    border: 1px solid #EB5F22;
+    left: 10%;
+    transform: translate(5%, 0%);
+    transition: 400ms;
+}
+
+a{
+    text-decoration: none;
+    font-family:Opens Sans;
+}
+#tnStrong {
+    color: #EB5F22;
+    text-decoration: none;
+    font-family:Opens Sans;
+}
+
+#developed {
     display: relative;
     text-align: right;
+    text-decoration: none;
     margin-right: 35px;
- }
+    font-family:Opens Sans;
+}
 
- #copy{
-    
-    text-align:left;
-    margin-left:35px;
+#copy {
+
+    text-align: left;
+    margin-left: 35px;
     margin-bottom: -3%;
+    font-family:Opens Sans;
+}
 
- }
- #fraseFooter{
-   margin-top: 1.5%;
+#fraseFooter {
+    color: white;
+    text-decoration: none;
+    margin-top: 1.5%;
+    font-family:Opens Sans;
+    font-size: 19px !important;;
     align-items: center;
     justify-content: center;
-    display: flex; 
-    
+    display: flex;
+
 }

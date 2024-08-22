@@ -1,0 +1,54 @@
+#navBlog{
+  width: 100%; 
+  text-align: center;
+  font-family: Opens Sans;
+}
+#ulBlog{
+  width: 100%;
+  background-color:#222;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.secaoBlog{
+  text-decoration: none;
+  list-style-type:none;
+  display: inline;
+  color:white;
+  cursor:pointer;
+  margin-left:20px;
+  transform: translateY(100%) !important;
+}
+#logo {
+    width: 20px;
+    display: inline;
+  }
+  .marca {
+    padding: 30px;
+    font-size: 22px;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+    font-family: Bradley Hand, cursive;
+    list-style-type: none;
+    border: none;
+  }
+#textMarca{
+    color: white !important;
+    font-family: Opens Sans;
+}
+#textMarca:hover{
+    color:#EB5F22 !important;
+}
+#procura{
+ width: 400px;
+ height: 30px;
+ border-radius: 1%;
+ background-color: #363636;
+ border: none;
+ display: flex;
+ padding: 10px;
+ transform: translateY(50%);
+ 
+}
+#procure:active{
+  border: none;
+}

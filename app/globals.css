@@ -1,65 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
- body,
- html {
-
-   text-rendering: optimizelLegibility !important;
-   overflow-x: hidden;
-   height: 100%;
-   width: 100%;
-   margin: 0;
-   background: rgba(0, 0, 0, 0.7);
-   background-size: cover;
-   background-blend-mode: darken;
-
-   color: #cfcfcf;
- }
-
- #fundoNav{
-  background-color: transparent;
- }
-
- h1 {
-   padding: 40vh 0 0;
-   font-size: 40px;
-   text-transform: none;
-    text-align: center;
+html {
+  scroll-behavior: smooth;
+}
 
 
- }
 
- h1 strong {
-   font-weight: 800;
-
- }
-
- h2 {
-   text-transform: none;
-
- }
-
- h3 {
-   font-size: 25px;
-   font-weight: 900;
-   color: #ffff;
-   font-family: "Opens Sans", "Helvetica Neue";
-   text-align: center;
+@keyframes textosMove {
+  from {
+    transform: translate(0%, 130%);
   }
 
+  to {
+    transform: translate(0%, 0%);
+  }
+
+}
+
+body {
+
+  overflow-x: hidden;
+  margin: 0%;
+  margin-top: -35px;
+
+}
+
+#fundoNav {
+  background-color: transparent;
+}
+
+#fundo {
+  overflow: hidden;
+  height: 1800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+}
+
+.textos {
 
 
- h4 {
-   text-transform: none;
- }
+  animation: textosMove 9s;
+  transform: translate(0%, 0%);
+}
 
- h5 {
-   text-transform: none;
-   font-weight: 700;
-   line-height: 20px;
+#sobre {
+  margin-top: 30%;
+  z-index: 1;
+}
 
- }
+p {
+  font-family: Opens Sans;
+}
+
+h1 {
+  padding: 40vh 0 0;
+  font-size: 50px;
+  font-family: Opens Sans;
+  text-transform: none;
+  text-align: center;
+  color: #cfcfcf;
+}
+
+h1 strong {
+  font-weight: 800;
+}
+
+h2 {
+  font-family: Opens Sans;
+  text-transform: none;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #ffff;
+  font-family: Opens Sans;
+  text-align: center;
+}
 
 
- img {
-   max-width: 100% !important;
-   object-fit: cover;
- }
+#sobre{
+  margin-top: 20px;
+  padding-top: 100px;
+}
+h4 {
+  text-transform: none;
+}
+
+h5 {
+  text-transform: none;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+
+#gitHub {
+  margin-top: -45px;
+ background-repeat: no-repeat;
+}

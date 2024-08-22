@@ -1,19 +1,11 @@
-    body {
-      background-color: #2f3238;
-
+    #fundoContato {
+      width:100%;
+      background: rgb(15, 15, 15);
+      margin-top: -150px;
+      background-repeat: no-repeat;
     }
 
-    .fundoNav {
-      background-color: #000000CC;
-      margin: -3%;
-      padding: 0;
-      position: fixed;
-      width: 101.7%;
-      height: 130px;
-      align-items: center;
-      display: flex;
 
-    }
 
     h1 {
       color: white;
@@ -26,16 +18,6 @@
       font-size: 18px;
     }
 
-    .linhaTitulo {
-      border-bottom: 4px solid #EB5F22;
-      position: sticky;
-      height: 4px;
-      width: 80px;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      transition: 1000ms;
-    }
-
     .caixaTitulo {
       width: 100% !important;
       padding-bottom: 3%;
@@ -43,17 +25,13 @@
 
     }
 
-    .caixaTitulo:hover {
-      .linhaTitulo {
-        width: 300px;
-        transition: 500ms linear;
-      }
-    }
+
 
     #containerForm {
       justify-content: center;
       display: flex;
       padding-bottom: 10px;
+     
 
     }
 
@@ -69,7 +47,10 @@
       outline: 0;
       padding-left: 10px;
     }
-
+    .inputForm::-webkit-input-placeholder{
+      font-family:Opens Sans;
+      text-transform: uppercase;
+    }
     #inputMsg {
 
 
@@ -81,21 +62,18 @@
       height: 42px;
       background-color: #26292E;
       color: white;
-      border: none;
-      left: 50%;
-      transform: translateX(170%);
-      transition: 1000ms;
-      margin-top: 30px;
-
-
-    }
-
-    #inputButton:hover {
-      background-color: #EB5F22;
       cursor: pointer;
-      transition: 1000ms;
+      position: relative;
+      margin: 20px;
+      transform: translateX(170%);
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      font-family:Opens Sans;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+    
     }
 
-    footer {
-      margin-top: 100px;
-    }
+    
