@@ -1,0 +1,242 @@
+@media screen and (min-width:320px) {
+
+    .linhaTitulo {
+        padding-left: 25%;
+        width: 100px;
+        transform: translateX(-35%);
+
+    }
+
+    #caseSobre {
+        display: block;
+    }
+
+    #caseImg {
+
+        display: flex;
+        margin-left: 0%;
+        padding-left: -100px;
+        width: 100%;
+
+    }
+
+
+    img#threspo2 {
+        width: 550px;
+        margin-left: -19.6px;
+    }
+
+    #tituloEmpresa {
+        margin-top: 1px;
+        transform: translate(-18%, -20%);
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .logoEmpresa {
+        width: 50px;
+        padding-left: 0;
+        transform: translate(110%, -150%)
+    }
+
+
+
+    #botao {
+        width: 100px;
+        transform: translate(-160%, -400%);
+        
+    }
+
+}
+
+@media screen and (min-width:375px) {
+    .linhaTitulo{
+        transform: translateX(-47%);
+    }
+    #tituloEmpresa {
+        transform: translate(-14%, -20%);
+        font-size: 13px;
+    }
+
+
+    img#threspo2 {
+        width: 630px;
+        margin-left: -19.6px;
+    }
+
+    .logoEmpresa {
+        width: 70px;
+        padding-left: 0;
+        margin-left: -10px;
+        transform: translate(80%, -120%)
+    }
+
+    #botao {
+
+        transform: translate(-155%, -400%);
+    }
+
+}
+
+@media screen and (min-width:425px) {
+    .linhaTitulo{
+        transform: translateX(-52%);
+    }
+    #botao {
+        transform: translate(-195%, -400%);
+    }
+
+    img#threspo2 {
+        width: 700px;
+        margin-left: -10px;
+    }
+
+    .logoEmpresa {
+        width: 85px;
+        transform: translate(70%, -100%)
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .linhaTitulo{
+        transform: translateX(-73%);
+    }
+    .logoEmpresa {
+        width: 100px;
+        transform: translate(220%, -130%)
+    }
+
+    #tituloEmpresa {
+        transform: translate(-7%, -50%);
+        font-size: large;
+    }
+
+    img#threspo2 {
+        visibility: hidden;
+
+    }
+
+    img#th {
+        visibility: visible;
+        width: 550px;
+        margin-left: -570px;
+        margin-top: 20px;
+    }
+
+    #botao {
+        width: 200px;
+        transform: translate(-30%, -550%);
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .linhaTitulo{
+        transform: translateX(-93%);
+    }
+    #caseSobre {
+        display: inline-flex;
+        margin-left: 10px;
+        padding: 10px;
+        margin-top: 5%;
+        padding-bottom: 100px;
+
+    }
+
+    #caseImg {
+        display: flex;
+    }
+
+
+    #th {
+        visibility: visible;
+        width: 100%;
+        height: 550px;
+        margin-bottom: -10%;
+        transform: translateX(-25%);
+        padding-bottom: 50px;
+        background: rgba(0, 0, 0, 0.7);
+        background-blend-mode: darken;
+    }
+
+    #threspo {
+        display: none;
+    }
+
+    #tituloEmpresa {
+        height: 90px;
+        padding-top: 20px;
+        transform: translate(-150%, 10%);
+    }
+
+    #caseEmpresas {
+        display: flex;
+        margin-left: -15%;
+        margin-top: 6%;
+    }
+
+    .logoEmpresa {
+        width: 100px;
+        margin-top: 10px;
+        padding: 5px;
+        margin-left: 0%;
+        transform: translate(-350%, -5%);
+        transition: 1000ms;
+    }
+
+    .logoEmpresa:hover {
+        transition: 400ms;
+        transform: translate(-350%, 0%);
+    }
+
+    #botao {
+        width: 220px;
+        height: 50px;
+        transform: translate(-320%, 500%);
+
+    }
+
+}
+
+@media screen and (min-width:1349px) {
+   .linhaTitulo{
+    height: 4px;
+    width: 3px;
+    transform: translateX(-50%) !important;
+   }
+    
+    .caixaTitulo:hover {
+        .linhaTitulo {
+            width: 30px;
+            transition: 500ms linear;
+        }
+    }
+
+    img#th {
+        margin-left: -550px;
+    }
+
+   
+
+    .logoEmpresa {
+        width: 110px;
+        padding: 20px;
+        margin-left: 30px;
+        transform: translate(350%, -250%)!important;
+    }
+
+    .logoEmpresa:hover {
+        transition: 400ms;
+        padding: 20px;
+        margin-left: 30px;
+        transform: translate(350%, -245%)!important;
+       
+        
+    }
+
+    #botao {
+        width: 280px;
+        transform: translate(-285%, 500%);
+    }
+}

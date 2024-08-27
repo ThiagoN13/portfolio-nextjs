@@ -1,0 +1,89 @@
+@keyframes arrowMove1{
+    from{
+      transform: translate(95%, 10%);
+      opacity: 0%;
+    }
+    to{
+      transform: translate(95%,25%);
+      opacity:100%;
+    }
+  }
+#caseBotaoScroll{
+  width: 100%;
+
+}
+  #botaoScroll{
+    color:white;
+    width: 100px;
+    height: 60px;
+    cursor:pointer;
+    z-index: 1 !important;
+    animation: arrowMove1 2s infinite;
+  }
+  
+  #botaoScroll:hover{
+    color:#EB5F22;
+  }
+  
+  @media screen and (min-width:375px){
+    @keyframes arrowMove1{
+      from{
+        transform: translate(135%, 30%);
+        opacity: 0%;
+      }
+      to{
+        transform: translate(135%,55%);
+        opacity:100%;
+      }
+    }
+  }
+
+  @media screen and (min-width:425px){
+    @keyframes arrowMove1{
+      from{
+        transform: translate(160%, 30%);
+        opacity: 0%;
+      }
+      to{
+        transform: translate(160%,55%);
+        opacity:100%;
+      }
+    }
+  }
+  @media screen and (min-width:768px){
+    @keyframes arrowMove1{
+      from{
+        transform: translate(332%, 30%);
+        opacity: 0%;
+      }
+      to{
+        transform: translate(332%,55%);
+        opacity:100%;
+      }
+    }
+  }
+  @media screen and (min-width:768px){
+    @keyframes arrowMove1{
+      from{
+        transform: translate(470%, 30%);
+        opacity: 0%;
+      }
+      to{
+        transform: translate(470%,55%);
+        opacity:100%;
+      }
+    }
+  }
+
+  @media screen and (min-width:1349px){
+    @keyframes arrowMove1{
+      from{
+        transform: translate(630%, -40%);
+        opacity: 0%;
+      }
+      to{
+        transform: translate(630%,-20%);
+        opacity:100%;
+      }
+    }
+  }

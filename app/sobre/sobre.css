@@ -32,6 +32,7 @@ h1 {
 
 .linhaTitulo {
     border-bottom: 4px solid #666666 !important;
+    border-bottom: 4px solid #666666 !important;
     position: sticky;
     height: 4px;
     width:20%;

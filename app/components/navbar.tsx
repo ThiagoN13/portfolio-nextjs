@@ -1,10 +1,19 @@
 'use client'
+'use client'
 import { url } from 'inspector';
 import './navbar.css';
 import { useState } from 'react';
 import './querynavbar.css'
 import { Link as ScrollLink } from 'react-scroll';
+import { useState } from 'react';
+import './querynavbar.css'
+import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
+import { useEffect } from 'react';
+import { ImMenu3 } from "react-icons/im";
+import { get } from 'http';
+
+
 import { useEffect } from 'react';
 import { ImMenu3 } from "react-icons/im";
 import { get } from 'http';

@@ -1,11 +1,11 @@
 import Link
 from "next/link"
 import './footer.css'
-import './queryfooter.css'
 import Navbar from "./navbar";
 import {FaGitlab, FaLinkedin,FaGithub} from "react-icons/fa"
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { BiSolidHeartCircle } from "react-icons/bi";
+
 
 
 
