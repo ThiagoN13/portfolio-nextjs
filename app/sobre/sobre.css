@@ -9,16 +9,7 @@
     } 
     
 }
-@keyframes deslizar{
-  from{
-    opacity: 0;
-    clip-path: inset( 100% 100% 0% );
-  }       
-  to {
-    opacity: 1;
-    clip-path: inset(0 0 0 0 );
-  }
-}
+
 
 h2 {
     color: white;
@@ -31,7 +22,6 @@ h1 {
 }
 
 .linhaTitulo {
-    border-bottom: 4px solid #666666 !important;
     border-bottom: 4px solid #666666 !important;
     position: sticky;
     height: 4px;
@@ -48,7 +38,7 @@ h1 {
     width: 100% !important;
     animation: surgir  linear;
     animation-timeline: view() ;
-    animation-range:entry 39% cover 50%;
+    animation-range:entry 0% cover 45%;
     transition: 1000ms;
 }
 .caixaTitulo:hover{
@@ -59,15 +49,9 @@ h1 {
 
 #sobreMim{
     font-size:30px;
-    margin-top: 140px;
+
 }
-#caseTextSobre{
-    transform: translateY(-20%);
-    animation: deslizar 5s linear;
-    animation-timeline: view() ;
-    animation-range:entry 300% cover 17%;
-    transition: 1000ms;
-}
+
 
 #textSobre{
     color:white;
@@ -81,20 +65,21 @@ h1 {
    display: grid;
    justify-content:center;
    grid-template-columns: repeat(4, minmax(130px, 130px));
-   gap:2%;
-   margin-top: -300;
-   transform: translateY(-380%);
+   margin-top: -300px;
+   transform: translateY(-40%);
 }
  
 .logoEmpresa {
-    width: 130px;
+    width: 110px;
     z-index: 1;
-    background-color: #202020;
-    box-shadow: 1px 1px 1px 1px rgba(150, 150, 150, 0.753), 0 6px 20px 0 rgba(126, 126, 126, 0.815);
-    margin: 10%;
+    box-shadow: -4px 2px 1px 0px rgba(150, 150, 150, 0.753), -1px -4px 20px 0px rgba(126, 126, 126, 0.815);
     border-radius: 10%;
     transition: 1000ms;
+    padding-left: 10px;
+    margin-left: 10px;
     
+    
+   
 }
 .logoEmpresa:hover{
     transform: translateY(-10%);

@@ -2,21 +2,14 @@
 'use client'
 import { url } from 'inspector';
 import './navbar.css';
-import { useState } from 'react';
-import './querynavbar.css'
 import { Link as ScrollLink } from 'react-scroll';
 import { useState } from 'react';
-import './querynavbar.css'
-import { Link as ScrollLink } from 'react-scroll';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { ImMenu3 } from "react-icons/im";
 import { get } from 'http';
 
 
-import { useEffect } from 'react';
-import { ImMenu3 } from "react-icons/im";
-import { get } from 'http';
 
 
 
@@ -44,7 +37,7 @@ export default function Navbar() {
                 </li>
 
                 <li className={'links'}>
-                    <ScrollLink to='fundo' smooth={true} duration={1000}> Início</ScrollLink>
+                    <ScrollLink to='fundo' smooth={true} duration={1000}>Início</ScrollLink>
                 </li>
                 <li className={'links'}>
 

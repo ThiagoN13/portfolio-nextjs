@@ -32,7 +32,6 @@ export default function Sobre() {
                     <Link id='caseClick ' href='https://tag.mx/' target="_blank" locale={false}>
                         <img className={'logoEmpresa'} src="/img/tag.png" alt="TAG" />
                     </Link>
-
                     <Link href='https://www.montreal.com.br/' target="_blank" locale={false}>
                         <img className={'logoEmpresa'} src='/img/montreal.png' alt='MONTREAL'></img>
                     </Link>
